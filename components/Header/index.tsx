@@ -86,6 +86,7 @@ const ResponsiveHeader = () => {
     <AppBar position="static" color="transparent"
       sx = {{
         mt: '11px',
+        borderBottom: '1px solid #e5e5e5',
         boxShadow: 0
       }}
     >
