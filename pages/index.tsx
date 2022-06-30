@@ -7,6 +7,7 @@ import Aboutus from '../components/Aboutus'
 import styles from '../styles/Home.module.css'
 import Features from '../components/Features'
 import OurTeam from '../components/OurTeam'
+import CTA from '../components/CTA'
 
 const Home: NextPage = () => {
   const theme = createTheme({
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
       <Aboutus theme={theme}/>
       <Features theme={theme}/>
       <OurTeam theme={theme} />
+      <CTA theme={theme} />
     </ThemeProvider >
   )
 }
