@@ -30,7 +30,7 @@ const CoverWrapper = styled('div')(({ theme }) => ({
   },
 }));
 
-const Community = (props: any) => {
+const Features = (props: any) => {
   return (
     <Box>
       <CssBaseline />
@@ -275,4 +275,4 @@ const Community = (props: any) => {
     </Box>
   );
 };
-export default Community;
+export default Features;

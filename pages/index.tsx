@@ -5,7 +5,8 @@ import Header from '../components/Header'
 import Intro from '../components/Intro'
 import Aboutus from '../components/Aboutus'
 import styles from '../styles/Home.module.css'
-import Community from '../components/Community'
+import Features from '../components/Features'
+import OurTeam from '../components/OurTeam'
 
 const Home: NextPage = () => {
   const theme = createTheme({
@@ -26,7 +27,8 @@ const Home: NextPage = () => {
       <Header />
       <Intro />
       <Aboutus theme={theme}/>
-      <Community theme={theme}/>
+      <Features theme={theme}/>
+      <OurTeam theme={theme} />
     </ThemeProvider >
   )
 }
