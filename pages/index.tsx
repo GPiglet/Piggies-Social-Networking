@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
+import Aboutus from '../components/Aboutus'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
 
       <Header />
       <Intro />
+      <Aboutus theme={theme}/>
     </ThemeProvider >
   )
 }
