@@ -18,8 +18,6 @@ const CoverWrapper = styled('div')(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  paddingTop: 220,
-  paddingBottom: 120,
   alignItems: 'center',
   textAlign: 'center',
   [theme.breakpoints.up('md')]: {
@@ -33,8 +31,8 @@ const Aboutus = (props: any) => {
     <Box>
       <CssBaseline />
       <Container maxWidth="xl" sx={{pl: {sm: 10}, pr: {sm: 10}}} disableGutters>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={5}>
+        <Grid container spacing={4} sx={{mt: {xs: '200px', md: '100px'}}}>
+          <Grid item xs={12} md={5} sx={{display: 'flex', alignItems: 'center'}}>
             <CoverWrapper>
               <Typography variant='h6' sx={{color: props.theme.palette.primary.main}}>
                 Whats Piggies?
@@ -74,7 +72,7 @@ const Aboutus = (props: any) => {
             </CoverWrapper>
           </Grid>
           <Grid item xs={12} md={1}></Grid>
-          <Grid item xs={12} md={3}>
+          <Grid item xs={12} md={3} sx={{display: 'flex', alignItems: 'center'}}>
             <Box
               component="img"
               sx={{
@@ -85,8 +83,8 @@ const Aboutus = (props: any) => {
               src="/about1.png"
             />
           </Grid>
-          <Grid item xs={12} md={3} sx={{display: 'flex'}}>
-            <Stack spacing={2}>
+          <Grid item xs={12} md={3} sx={{display: 'flex', alignItems: 'center'}}>
+            <Stack spacing={4} sx={{marginLeft: 'auto', marginRight: 'auto'}}>
             <Box
               component="img"
               sx={{
