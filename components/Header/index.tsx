@@ -83,14 +83,14 @@ const ResponsiveHeader = () => {
   };
 
   return (
-    <AppBar position="static" color="transparent"
+    <AppBar position="fixed" color="transparent"
       sx = {{
         mt: '11px',
         borderBottom: '1px solid #e5e5e5',
         boxShadow: 0
       }}
     >
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{pl: {sm: 10}, pr: {sm: 10}}} disableGutters>
         <Toolbar disableGutters
           sx = {{
           }}
