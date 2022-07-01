@@ -109,7 +109,8 @@ const ResponsiveHeader = () => {
       sx = {{
         mt: '11px',
         borderBottom: '1px solid #e5e5e5',
-        boxShadow: 0
+        boxShadow: 0,
+        transition: 'margin-top 250ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.6, 1) 0ms',
       }}
     >
       <Container maxWidth="xl" sx={{pl: {sm: 10}, pr: {sm: 10}}} disableGutters>
