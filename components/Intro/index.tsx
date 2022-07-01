@@ -61,7 +61,7 @@ const Intro = () => {
                 objectFit: 'scale-down'
               }}
               alt="cover"
-              src="/cover.svg"
+              src="/cover.png"
             />
           </Grid>
         </Grid>

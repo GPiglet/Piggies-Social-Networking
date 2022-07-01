@@ -3,7 +3,6 @@ import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import styles from '../../styles/Intro.module.css';
 import Grid from '@mui/material/Grid';
-import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';

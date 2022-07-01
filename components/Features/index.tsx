@@ -10,10 +10,8 @@ import Card from '@mui/material/Card';
 import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
 import ListItem from '@mui/material/ListItem';
-import CircleIcon from '@mui/icons-material/Circle';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
 import CardContent from '@mui/material/CardContent';
 
 const CoverWrapper = styled('div')(({ theme }) => ({
@@ -48,7 +46,7 @@ const Features = (props: any) => {
         <Grid container  spacing={4} sx={{p: '15px 0'}}>
             <Grid item xs={12} lg={1}></Grid>
             <Grid item xs={12} lg={5} >
-            <Card sx={{boxShadow: 0, borderRadius: 3, height: '100%'}}>
+            <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%'}}>
               <CardContent>
               <List>
                 <ListItem>
@@ -83,7 +81,7 @@ const Features = (props: any) => {
             </Card>
             </Grid>
             <Grid item xs={12} lg={5}>
-            <Card sx={{boxShadow: 0, borderRadius: 3, height: '100%'}}>
+            <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%'}}>
               <CardContent>
               <List>
                 <ListItem>
@@ -123,7 +121,7 @@ const Features = (props: any) => {
         <Grid container  spacing={4} sx={{p: '15px 0'}}>
             <Grid item xs={12} lg={1}></Grid>
             <Grid item xs={12} lg={5} >
-            <Card sx={{boxShadow: 0, borderRadius: 3, height: '100%'}}>
+            <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%'}}>
               <CardContent>
               <List>
                 <ListItem>
@@ -158,7 +156,7 @@ const Features = (props: any) => {
             </Card>
             </Grid>
             <Grid item xs={12} lg={5}>
-            <Card sx={{boxShadow: 0, borderRadius: 3, height: '100%'}}>
+            <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%'}}>
               <CardContent>
               <List>
                 <ListItem>
@@ -198,7 +196,7 @@ const Features = (props: any) => {
         <Grid container  spacing={4} sx={{p: '15px 0'}}>
             <Grid item xs={12} lg={1}></Grid>
             <Grid item xs={12} lg={5} >
-            <Card sx={{boxShadow: 0, borderRadius: 3, height: '100%'}}>
+            <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%'}}>
               <CardContent>
               <List>
                 <ListItem>
@@ -233,7 +231,7 @@ const Features = (props: any) => {
             </Card>
             </Grid>
             <Grid item xs={12} lg={5}>
-            <Card sx={{boxShadow: 0, borderRadius: 3, height: '100%'}}>
+            <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%'}}>
               <CardContent>
               <List>
                 <ListItem>

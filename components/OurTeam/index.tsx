@@ -1,22 +1,15 @@
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import styles from '../../styles/Intro.module.css';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
-import List from '@mui/material/List';
-import ListItemText from '@mui/material/ListItemText';
-import ListItem from '@mui/material/ListItem';
-import CircleIcon from '@mui/icons-material/Circle';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
 const CoverWrapper = styled('div')(({ theme }) => ({
   display: 'flex',
