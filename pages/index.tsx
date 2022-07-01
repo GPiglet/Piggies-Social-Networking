@@ -8,6 +8,7 @@ import styles from '../styles/Home.module.css'
 import Features from '../components/Features'
 import OurTeam from '../components/OurTeam'
 import CTA from '../components/CTA'
+import Blog from '../components/Blog'
 
 const Home: NextPage = () => {
   const theme = createTheme({
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
       <Features theme={theme}/>
       <OurTeam theme={theme} />
       <CTA theme={theme} />
+      <Blog theme={theme} />
     </ThemeProvider >
   )
 }

@@ -57,7 +57,7 @@ const OurTeam = (props: any) => {
             <Button variant="contained" sx={{p: '12px 50px', fontSize: '1rem', fontWeight: 700, textTransform: 'none', borderRadius: '14px'}}>Active</Button>
           </TabWrapper>
         </CoverWrapper>
-        <Grid container  spacing={4} sx={{p: '15px 0', mt: '10px'}}>
+        <Grid container  spacing={4} sx={{p: '15px 0', mt: '10px', mb: '100px'}}>
             <Grid item xs={12} sm={6} md={3}>
             <Card sx={{boxShadow: '0px 34px 68px rgba(116, 115, 128, 0.1)', borderRadius: 3, height: '100%', padding: 1}}>
               <CardContent>
