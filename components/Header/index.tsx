@@ -82,8 +82,30 @@ const ResponsiveHeader = () => {
     setAnchorElUser(null);
   };
 
+  const stickyHeader = React.useRef<any>(null);
+  const onScroll = () => {
+    if ( stickyHeader.current )
+    {
+      if ( window.pageYOffset > 0 )
+      {
+        stickyHeader.current.style.backgroundColor = '#fff';
+        stickyHeader.current.style.marginTop = 0;
+      }
+      else
+      {
+        stickyHeader.current.style.backgroundColor = 'transparent';
+        stickyHeader.current.style.marginTop = '11px';
+      }
+    }
+  }
+
+  React.useEffect(() => {
+    window.addEventListener('scroll', onScroll);
+    return ()=>window.removeEventListener('scroll', onScroll);
+  }, []);
+
   return (
-    <AppBar position="fixed" color="transparent"
+    <AppBar position="fixed" color="transparent" ref={stickyHeader}
       sx = {{
         mt: '11px',
         borderBottom: '1px solid #e5e5e5',
